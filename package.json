@@ -1,0 +1,26 @@
+{
+  "name": "cafeteria-digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleysaraivaa/cafeteria-digital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleysaraivaa/cafeteria-digital/issues"
+  },
+  "homepage": "https://github.com/wesleysaraivaa/cafeteria-digital#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.4",
+    "fastify": "^5.2.1",
+    "tailwindcss": "^4.0.4"
+  }
+}
